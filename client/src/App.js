@@ -1,9 +1,12 @@
 import "./App.css"
+import Header from "./components/Header/header.component"
+import Form from "./components/form/form.component"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
+    <div>
+      <Header />
+      <Form />
     </div>
   )
 }
