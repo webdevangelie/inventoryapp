@@ -1,12 +1,16 @@
 import React from "react"
 
-import "./header.css"
+import styled from "styled-components"
+
+const HeaderWrapper = styled.div`
+  text-align: center;
+`
 
 const Header = () => (
-  <div>
+  <HeaderWrapper>
     <h1>Arcy Brian Auto Supply</h1>
     <h2>Inventory Management</h2>
-  </div>
+  </HeaderWrapper>
 )
 
 export default Header

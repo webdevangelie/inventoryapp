@@ -1,6 +1,6 @@
 import "./App.css"
-import Header from "./components/Header/header.component"
-import Form from "./components/form/form.component"
+import Header from "./components/Header.component"
+import Form from "./components/Form.component"
 
 const App = () => {
   return (
